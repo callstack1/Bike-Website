@@ -1,10 +1,10 @@
-export { person };
+export { Person };
 
-class person{
-    constructor(name, text, img){
+class Person{
+    constructor(name, img, text){
         this.name = name;
-        this.text = text;
         this.img = img;
+        this.text = text;
     }
 
     getName = function(){
@@ -16,4 +16,6 @@ class person{
     getImg = function(){
         return this.img;
     }
+    static nextIndex = 0;
+    static previousIndex = 4;
 }
