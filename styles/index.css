@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+
+#header {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/main_wallpaper.jpeg") center;
+}
+
+/* recomendacoes */
+
+#rec {
+  width: 100vw;
+  height: 100vh;
+  background: #545151;
+  text-align: center;
+  position: relative;
+  text-shadow: 4px 4px #222222;
+}
+
+h4 {
+  color: white;
+  position: relative;
+  top: 22%;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#rec-ctn {
+  width: 100vw;
+  height: 550px;
+  top: 15%;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  background: url("../images/rec/person1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  width: 30px;
+  height: 60px;
+  background: url("../images/arrow.png");
+  background-size: 30px 60px;
+}
+
+#arrow-right {
+  float: right;
+  transform: rotate(180deg);
+}
+
+#arrow-left {
+  float: left;
+}
+
+#rec-txt {
+  width: 80;
+  height: 195px;
+  position: relative;
+  top: 30%;
+}
+
+/* SOBRE */
+
+#sobre {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  text-shadow: 4px 4px black;
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 34, 34, 0.5),
+      rgba(34, 34, 34, 0.5)
+    ),
+    url(../images/sobre_nos.jpeg) center;
+}
+
+h3 {
+  letter-spacing: 5px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 17%;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#sobre-nos-ctn {
+  position: relative;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: 60%;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: relative;
+  text-shadow: 2px 2px black;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/* FOOTER */
+
+#footer {
+  width: 100vw;
+  height: 100vh;
+  background: #222222;
+  position: absolute;
+}
+
+#contact-ctn {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: 5%;
+  text-align: center;
+}
+
+.info {
+  position: relative;
+  outline: none;
+  border: 5px solid #222222;
+  margin-bottom: 30px;
+  height: 7%;
+  background: #222222;
+  top: 25%;
+  color: white;
+  border: 2px solid white;
+}
+
+.info::placeholder {
+  color: white;
+}
+
+#message {
+  height: 30%;
+  resize: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  position: relative;
+  background: white;
+  border: 3px solid white;
+  width: 100px;
+  height: 50px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-align: center;
+  top: 25%;
+}
+
+/* for small height phones */
+
+@media only screen and (max-height: 568px) {
+  .content {
+    font-size: 1.3rem;
+  }
+}

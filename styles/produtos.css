@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+  background: #e4e2e2;
+}
+
+#page-content-ctn {
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#products-ctn {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  height: 1600px;
+  overflow-y: hidden;
+}
+
+h2 {
+  font-family: "Lexend Mega", sans-serif;
+  color: #222222;
+  position: relative;
+  font-size: 2.5rem;
+  text-shadow: 5px 5px 5px white;
+}
+
+.column {
+  height: 100%;
+  width: 43%;
+  float: left;
+  overflow-y: hidden;
+  position: relative;
+  top: 50px;
+  margin: 0px 12px;
+}
+
+.product-ctn {
+  width: 160px;
+  height: 270px;
+  border-radius: 10px;
+  float: left;
+  margin-bottom: 25px;
+  border: 1px solid #222222;
+  background: white;
+  text-align: center;
+}
+
+.product {
+  width: 160px;
+  height: 180px;
+  border: 1px solid #222222;
+  background-size: 160px 180px;
+  background-repeat: no-repeat;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  color: #322222;
+  margin: 5px 0px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.product-price {
+  font-size: 1.5rem;
+}
