@@ -19,64 +19,73 @@
 #rec {
   width: 100vw;
   height: 100vh;
-  background: #545151;
+  background: #222222;
   text-align: center;
   position: relative;
-  text-shadow: 4px 4px #222222;
+  overflow-y: hidden;
 }
 
-h4 {
+#rec-title {
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 17%;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#rec-subtitle {
   color: white;
   position: relative;
-  top: 22%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   letter-spacing: 2px;
   font-weight: bold;
-}
-
-#rec-ctn {
-  width: 100vw;
-  height: 550px;
-  top: 15%;
-  position: relative;
-  overflow-y: hidden;
+  top: 20%;
+  text-shadow: 3px 3px #222222;
 }
 
 #photo {
   width: 200px;
   height: 200px;
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 100px;
-  margin: 0 auto;
   position: relative;
-  top: 25%;
-  background: url("../images/rec/person1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  top: 22%;
+  left: 8%;
 }
 
 .arrow {
   width: 30px;
   height: 60px;
-  background: url("../images/arrow.png");
-  background-size: 30px 60px;
+  position: relative;
+  top: 15%;
 }
 
 #arrow-right {
-  float: right;
   transform: rotate(180deg);
+  left: 20%;
 }
 
 #arrow-left {
-  float: left;
+  left: -75%;
 }
 
 #rec-txt {
   width: 80;
   height: 195px;
   position: relative;
-  top: 30%;
+  top: 22%;
+  margin: 0px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: relative;
+  text-shadow: 2px 2px black;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
 /* SOBRE */

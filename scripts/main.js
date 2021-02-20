@@ -1,5 +1,6 @@
 import { banner } from './createBanner.js';
 import { menu } from './menu.js';
+import { swipePerson } from './rec.js';
 
 function menuOffWhenScrolling(){
     window.addEventListener("scroll", () => {
@@ -12,3 +13,4 @@ function menuOffWhenScrolling(){
 banner();
 menu.create();
 menuOffWhenScrolling();
+swipePerson();
