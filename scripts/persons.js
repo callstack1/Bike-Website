@@ -16,6 +16,17 @@ class Person{
     getImg = function(){
         return this.img;
     }
-    static nextIndex = 0;
-    static previousIndex = 4;
+    static currentIndex = 0;
+    static nextPerson = function(type){
+        if (type == "next"){
+            this.currentIndex == 4 ? 
+            this.currentIndex = 0 : 
+            this.currentIndex++;
+        } else {
+            this.currentIndex == 0 ?
+            this.currentIndex = 4 :
+            this.currentIndex--;
+        }
+        return this.currentIndex;
+    }
 }

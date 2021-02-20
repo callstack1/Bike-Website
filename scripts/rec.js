@@ -5,23 +5,24 @@ import { persons } from './persons_example.js';
 function swipePerson(){
     const arrow = document.querySelectorAll(".arrow");
     const personsArray = createPersonsArray();
-    // arrow.addEventListener("", swipe);
     arrow[0].addEventListener("click", changePerson);
     arrow[1].addEventListener("click", changePerson);
     
-    function swipe(evt){
-        return 0;
-    }
-    
     function changePerson(evt){
         const photo = document.querySelector("#photo");
-        const txt = document.querySelector("#rec-txt");
+        const rec = document.querySelector("#rec");
         if (evt.target.id == "arrow-right"){
-            Person.nextIndex++;
-            let currentPerson = personsArray[Person.nextIndex];
-            photo.style.background = `url(${currentPerson.getImg()})`;
-            txt.textContent = currentPerson.getText();
+            var currentPerson = personsArray[Person.nextPerson("next")];
+        } else {
+            var currentPerson = personsArray[Person.nextPerson("previous")];
         }
+        photo.src = currentPerson.getImg();
+        const nextText = document.createElement("p");
+        nextText.textContent = currentPerson.getText();
+        nextText.id = "rec-txt";
+        let txt = document.querySelector("#rec-txt");
+        rec.removeChild(txt);
+        rec.appendChild(nextText);
     }
 }
 
