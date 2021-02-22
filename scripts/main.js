@@ -10,7 +10,9 @@ function menuOffWhenScrolling(){
     })
 }
 
-banner();
-menu.create();
-menuOffWhenScrolling();
+if (window.innerWidth < 768){ // just work for phones
+    banner();
+    menu.create();
+    menuOffWhenScrolling();
+}
 swipePerson();

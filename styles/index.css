@@ -208,3 +208,18 @@ button {
     font-size: 1.3rem;
   }
 }
+
+/* PCs and tablets */
+
+@media only screen and (min-width: 768px) {
+  #header {
+    background: url("../images/bike_background_pc.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -400px 0px;
+  }
+
+  #menu {
+    display: none;
+  }
+}
