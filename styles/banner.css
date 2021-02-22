@@ -23,6 +23,7 @@ h1 {
   width: 100vw;
   height: 100px;
   background: #222222;
+  transition: background 800ms;
 }
 
 #menu {
