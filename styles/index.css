@@ -12,6 +12,7 @@
   width: 100vw;
   height: 100vh;
   background: url("../images/main_wallpaper.jpeg") center;
+  transition: height 2s;
 }
 
 /* recomendacoes */
@@ -36,10 +37,18 @@
   font-size: 2rem;
 }
 
-#rec-subtitle {
+#name-ctn {
+  width: 100vw;
+  height: 2.2rem;
+  position: relative;
+  top: 20%;
+  overflow-y: hidden;
+}
+
+#person-name {
   color: white;
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   text-align: center;
   letter-spacing: 2px;
   font-weight: bold;
@@ -47,13 +56,17 @@
   text-shadow: 3px 3px #222222;
 }
 
+#content-ctn {
+  top: 25%;
+  position: relative;
+}
+
 #photo {
   width: 200px;
   height: 200px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 100px;
   position: relative;
-  top: 22%;
   left: 8%;
 }
 
@@ -61,7 +74,7 @@
   width: 30px;
   height: 60px;
   position: relative;
-  top: 15%;
+  top: -50px;
 }
 
 #arrow-right {
