@@ -10,12 +10,20 @@
         <div>
             <div id="header">
                 <div id="banner">
-                    <h1>Bikerss</h1>
-                    <button class="banner-button" id="inicio">Inicio</button>
-                    <button class="banner-button" id="produtos">Produtos</button>
-                    <button class="banner-button" id="recomendações">Recomendações</button>
-                    <button class="banner-button" id="sobre-button">Sobre</button>
-                    <button class="banner-button" id="contato-button">Contato</button>
+                    <h1>Bikers</h1>
+                    <a href="index.html"><button class="banner-button" id="inicio">Inicio</button></a>
+                    <a href="produtos.html">
+                        <button class="banner-button" id="produtos">Produtos</button>
+                    </a>
+                    <a href="index.html#rec">
+                        <button class="banner-button" id="recomendacoes">Recomendações</button>
+                    </a>
+                    <a href="index.html#sobre">
+                        <button class="banner-button" id="sobre-button">Sobre</button>
+                    </a>
+                    <a href="index.html#footer">
+                        <button class="banner-button" id="contato-button">Contato</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -54,7 +62,7 @@
                 <input class="info" type="text" placeholder="Seu nome"/>
                 <input class="info" type="email" placeholder="Seu email"/>
                 <textarea class="info" id="message" placeholder="Sua mensagem"></textarea>
-                <button>Enviar</button>
+                <button id="send-msg">Enviar</button>
             </div>
         </div>
         <script src="../scripts/main.js" type="module"></script>

@@ -15,4 +15,6 @@ if (window.innerWidth < 768){ // just work for phones
     menu.create();
     menuOffWhenScrolling();
 }
+
+// recomendations
 swipePerson();

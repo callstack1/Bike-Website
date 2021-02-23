@@ -57,6 +57,9 @@ function swipePerson(){
             const nextText = document.createElement("p");
             nextText.textContent = currentPerson.getText();
             nextText.style.opacity = "0%";
+            if (window.innerWidth >= 768){
+                nextText.style.fontSize = "3rem";
+            }
             nextText.id = "rec-txt";
             let txt = document.querySelector("#rec-txt");
             contentCtn.removeChild(txt);

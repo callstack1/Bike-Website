@@ -209,7 +209,7 @@ button {
   }
 }
 
-/* PCs and tablets */
+/* Tablets */
 
 @media only screen and (min-width: 768px) {
   #header {
@@ -222,4 +222,100 @@ button {
   #menu {
     display: none;
   }
+
+  /* rec */
+
+  #rec-title {
+    font-size: 5rem;
+  }
+
+  #name-ctn {
+    height: 7rem;
+  }
+
+  #person-name {
+    font-size: 3rem;
+  }
+
+  #photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    left: 10%;
+  }
+
+  .arrow {
+    width: 80px;
+    height: 130px;
+  }
+
+  #arrow-left {
+    left: -50%;
+  }
+
+  #rec-txt {
+    height: 500px;
+  }
+
+  #txt {
+    font-size: 3rem;
+  }
+
+  /* sobre */
+
+  #sobre-nos-txt {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  /* contate-nos */
+  h3 {
+    font-size: 4rem;
+  }
+
+  .info {
+    width: 300px;
+    height: 100px;
+    font-size: 2.5rem;
+  }
+
+  #message {
+    width: 700px;
+  }
+
+  #send-msg {
+    width: 200px;
+    height: 100px;
+    font-size: 2rem;
+  }
+}
+
+/* PCs */
+
+@media only screen and (min-width: 1025px) {
+  #header {
+    background-position: 0px -100px;
+  }
+
+  /* rec */
+
+  #rec-title {
+    font-size: 3rem;
+  }
+
+  #person-name {
+    font-size: 1.5rem;
+  }
+
+  #photo {
+    width: 150px;
+    height: 150px;
+    left: 6.5%;
+  }
+  /* sobre */
+
+  /* contato */
 }
