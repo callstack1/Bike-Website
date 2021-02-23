@@ -4,8 +4,8 @@ const persons = {
     "person1": {
         "name": "John",
         "picture": "../images/rec/person1.jpeg",
-        "txt": `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Curabitur et erat pulvinar, scelerisque nunc non, viverra ex. Etiam elementum iaculis.`
+        "txt": `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices nibh pellentesque quam porta, eu mattis tellus
+                        aliquet. Donec at justo pulvinar, finibus nibh sed, fringilla lectus.`
     },
     "person2": {
         "name": "Maria",

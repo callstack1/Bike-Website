@@ -8,7 +8,21 @@
     </head>
     <body>
         <div>
-            <div id="header"></div>
+            <div id="header">
+                <div id="banner">
+                    <h1>Bikers</h1>
+                    <a href="index.html"><button class="banner-button" id="inicio">Inicio</button></a>
+                    <a href="index.html#rec">
+                        <button class="banner-button" id="recomendacoes">Recomendações</button>
+                    </a>
+                    <a href="index.html#sobre">
+                        <button class="banner-button" id="sobre-button">Sobre</button>
+                    </a>
+                    <a href="index.html#footer">
+                        <button class="banner-button" id="contato-button">Contato</button>
+                    </a>
+                </div>
+            </div>
         </div>
         <div id="rec">
             <h3 id="rec-title">Recomendações</h3>
@@ -45,7 +59,7 @@
                 <input class="info" type="text" placeholder="Seu nome"/>
                 <input class="info" type="email" placeholder="Seu email"/>
                 <textarea class="info" id="message" placeholder="Sua mensagem"></textarea>
-                <button>Enviar</button>
+                <button id="send-msg">Enviar</button>
             </div>
         </div>
         <script src="../scripts/main.js" type="module"></script>
