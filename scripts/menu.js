@@ -8,7 +8,6 @@ let menu = {
     startAnimation: null,
     contents: {
         "Inicio": "index.html",
-        "Produtos": "produtos.html",
         "Recomendações": "index.html#rec",
         "Sobre": "index.html#sobre",
         "Contato": "index.html#footer"

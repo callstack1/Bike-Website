@@ -57,8 +57,14 @@ function swipePerson(){
             const nextText = document.createElement("p");
             nextText.textContent = currentPerson.getText();
             nextText.style.opacity = "0%";
-            if (window.innerWidth >= 768){
+            if (window.innerWidth > 900 &&
+                window.innerWidth <= 1024){
                 nextText.style.fontSize = "3rem";
+            } else if (window.innerWidth >= 1025){
+                nextText.style.fontSize = "1.7rem";
+            } else if (window.innerWidth >= 768 &&
+                window.innerWidth <= 1024){
+                nextText.style.fontSize = "2rem";
             }
             nextText.id = "rec-txt";
             let txt = document.querySelector("#rec-txt");

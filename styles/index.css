@@ -307,15 +307,63 @@ button {
   }
 
   #person-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   #photo {
     width: 150px;
     height: 150px;
-    left: 6.5%;
+    left: 2.8%;
+  }
+
+  #content-ctn {
+    top: 100px;
+  }
+
+  .arrow {
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  #arrow-left {
+    left: -20%;
+  }
+
+  #arrow-right {
+    left: 10%;
+  }
+
+  #rec-txt {
+    width: 500px;
+    left: 30%;
+  }
+
+  #txt {
+    font-size: 1.7rem;
   }
   /* sobre */
 
+  #sobre {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
   /* contato */
+  .info {
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  #send-msg {
+    height: 80px;
+    font-size: 1.2rem;
+    width: 150px;
+    cursor: pointer;
+  }
 }

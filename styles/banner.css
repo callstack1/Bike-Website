@@ -91,7 +91,55 @@ h1 {
   overflow-y: hidden;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  h1 {
+    left: 5%;
+  }
+
+  #produtos {
+    top: 10%;
+  }
+
+  #recomendacoes {
+    top: 10%;
+    font-size: 0.75rem;
+  }
+
+  #contato-button {
+    top: 10%;
+  }
+
+  .banner-button {
+    width: 80px;
+    height: 70px;
+    border-radius: 7px;
+    border: 2px solid white;
+    position: relative;
+    left: 30%;
+    margin: 0px 10px;
+    display: inline-block;
+    word-break: break-word;
+    opacity: 85%;
+    top: 20%;
+  }
+
+  #rec-title {
+    font-size: 3.5rem;
+  }
+  #arrow-right {
+    left: 15%;
+  }
+
+  #arrow-left {
+    left: -55%;
+  }
+
+  #txt {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
   h1 {
     position: relative;
     left: 60px;
@@ -108,19 +156,23 @@ h1 {
     display: inline-block;
     top: -25%;
     word-break: break-word;
+    opacity: 85%;
   }
 
   #recomendacoes {
     top: -35px;
-  }
-
-  .banner-button:hover {
-    background: #222222;
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .banner-button {
     margin: 0px 30px;
+  }
+
+  .banner-button:hover {
+    background: #222222;
+    color: white;
+    transition: background 1s;
+    cursor: pointer;
   }
 }
